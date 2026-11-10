@@ -1,0 +1,46 @@
+button:disabled {
+  cursor: not-allowed;
+}
+.task-check:disabled {
+  opacity: 0.4;
+}
+.status-pill:disabled {
+  opacity: 0.7;
+}
+.member-picker {
+  border: 1px solid #e2e7ef;
+  border-radius: 7px;
+  padding: 9px 10px 6px;
+  margin: 0;
+}
+.member-picker legend {
+  font-size: 10px;
+  font-weight: 600;
+  color: #46536b;
+  padding: 0 4px;
+}
+.member-picker > label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 2px;
+  font-size: 10px;
+  font-weight: 400;
+  color: #536078;
+}
+.member-picker > label input {
+  width: 14px;
+  height: 14px;
+  accent-color: #596ce6;
+}
+.member-picker > label small {
+  margin-left: auto;
+  color: #9ba4b2;
+  font-size: 8px;
+  text-transform: capitalize;
+}
+.member-picker > p {
+  font-size: 9px;
+  color: #9aa3b1;
+  margin: 5px 2px;
+}
